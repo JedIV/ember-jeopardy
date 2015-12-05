@@ -4,7 +4,7 @@
   will have the 'hidden' class applied to it.
   This is what causes the slow fade effect on the github link
   when a question is selected.
-a#github-link class=activeQuestionController:hidden href="https://github.com/machty/ember-jeopardy" target="_blank"
+a#github-link class=activeQuestionController:hidden href="https://github.com/jediv/ember-jeopardy" target="_blank"
 
 each controller itemController="column"
   view Embardy.CategoryView nameBinding="name"
