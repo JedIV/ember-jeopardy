@@ -1,79 +1,276 @@
 categories:
-  - name: Views
+  - name: |
+      Episode II
+      Attack of The Clones
     questions:
-    - question: This View hook fires after a view's element has been inserted into the DOM.
-      answer: didInsertElement
-    - question: Use this property to specify a view's DOM element type other than div.
-      answer: tagName
-    - question: This View class is useful for manually managing a view hierarchy.
-      answer: Ember.ContainerView
-    - question: DAILY QUADRUPLE!!!!!!! Cory Forsyth presents "Dragging and Dropping in Ember"
-      answer: na
-    - question: You can schedule operations on this run loop queue to fire after DOM elements have rendered.
-      answer: afterRender
+    - question: |
+        Anakin Skywalker references this coarse, grainy substance while wooing Padme
 
-  - name: Contributing
-    questions:
-    - question: You should always try to create one of these when filing an issue to demonstrate the bug/problem.
-      answer: jsFiddle / JSBin / breaking test case
-    - question: Every behavior-changing pull request should come with some of these.
-      answer: Test cases
-    - question: In the Ember repo, this rake task rebuilds Ember
-      answer: rake dist
-    - question: This is an Ember-powered public forum for discussing Ember features and ideas
-      answer: http://discuss.emberjs.com/
-    - question: DAILY QUADRUPLE!!!!! Matt Rogish presents "Ember Model Generation from Rails Serializers"
-      answer: n/a
+        1) Gravel
+        2) Rice
+        3) Sand
+        4) Kratom
+      answer: Sand
+    - question: |
+        This Jedi Master was played by Samuel L. Jackson
 
-  - name: Ember Application Architecture
-    questions:
-    - question: This scheduling mechanism is what drives data-binding in Ember.
-      answer: The Run Loop
-    - question: Use this property to give controllers access to specific other controllers.
-      answer: needs
-    - question: DAILY QUADRUPLE!!!!!!! Chris Tse presents "Oasis.js"
-      answer: n/a
-    - question: This mechanism is responsible for controllers all having a router property.
-      answer: (Type) injections
-    - question: You can call these Application methods to defer and advance app initialization.
-      answer: App.deferReadiness() and App.advanceReadiness()
+        1) Mace Windu 
+        2) Qui-gon Jinn 
+        3) Kit Fisto 
+        4) Mace Winamp Quinine Gin Kid Fister II
+      answer: Mace Windu
+    - question: |
+        This Coruscant power player suggested a vote to provide Chancellor Palpaltine with emergency powers
 
-  - name: The Router
-    questions:
-    - question: This function is the entry point for drawing out your application's routes.
-      answer: App.Router.map
-    - question: Use this handlebars helper to nest content provided by child/leaf routes.
-      answer: outlet
-    - question: Override this Route hook to convert a dynamic route segment to a context object that'll be passed to the controller.
-      answer: model
-    - question: These public API Route hooks fire when entering and exiting a route, respectively.
-      answer: activate / deactivate
-    - question: If model returns one of these during a URL navigation, the router will temporarily pause the transition.
-      answer: A Promise
+        1) Jar Jar Binks 
+        2) Senator Padme Amidala
+        3) Former Chancellor Valorum
+        4) Yoda
+      answer: Jar Jar Binks
+    - question: |
+        DAILY DOUBLE!!!!!
+        This character is not from Naboo
 
-  - name: Ember-Handlebars
-    questions:
-    - question: This helper can be used to disable the default auto-updating behavior of data bindings.
-      answer: unbound
-    - question: Use this function to declare your own bound Handlebars helpers
-      answer: Ember.registerBoundHelper
-    - question: This helper will insert a view into the template and attach it to a controller.
-      answer: render
-    - question: When using {{each}}, this option will link each rendered item with its own instantiated controller.
-      answer: itemController="..."
-    - question: This Handlebars/Ember-compatible templating language offers an indented alternative to Handlebars syntax.
-      answer: Emblem.js
+        1) Padme Amidala
+        2) Chancellor Palpaltine
+        3) Jar Jar Binks
+        4) Jango Fett 
+      answer: Jango Fett
+    - question: |
+        Obi-Wan, Anakin, and Padme fight for their lives in a Gladiator pit on this sandy planet
 
-  - name: Culture
+        1) Tattoine
+        2) Geonosis
+        3) Endor
+        4) Hoth
+      answer: Geonosis
+
+  - name: |
+      Episode III
+      Revenge of the Sith
     questions:
-    - question: This is the name of Ember's bespectacled rodent mascot.
-      answer: Tomster
-    - question: This service (which uses an Ember.js front-end) verifies that Github PRs pass all test cases.
-      answer: Travis
-    - question: DAILY QUADRUPLE!!!!!! Michael Madrid presents "Crambear -- Flashcards in Ember.js"
-      answer: n/a
-    - question: Coined by Angular.js, this scope-related word is a favorite trolling target among Ember enthusiasts.
-      answer: Transclusion
-    - question: Tom Dale retweets this celebrity more often he tweets about code.
-      answer: Rebecca Black
+    - question: |
+        Why does Anakin turn to the dark side?
+
+        1) Wants excuse to kill younglings
+        2) Bored of light side
+        3) Worried about wife's childbirth
+        4) Wants better lightsaber color
+      answer: Worried about wife's childbirth
+    - question: |
+        This order, enacted by Emperor Palpaltine, caused the Clone Troopers to murder all the Jedi
+
+        1) Operation Deathride
+        2) Evil Plan #1
+        3) Order 66
+        4) Order 69
+      answer: Order 66
+    - question: |
+        Obi Wan Kenobi used this 'uncivilized' weapon to kill General Grevious
+
+        1) Lightsaber
+        2) Bowcaster
+        3) Knife
+        4) Blaster
+      answer: Blaster
+    - question: |
+        Jed's least favorite scene in any of the Star Wars movies happens when
+
+        1) Droids land on obi-wan's ship, and attack it with tiny lasers
+        2) Obi-wan rides a giant lizard
+        3) Anakin exclaims "In my opinion the Jedi are evil"
+        4) R2D2 lights a bunch of droids on fire
+      answer: Droids land on obi-wan's ship, and attack it with tiny lasers
+    - question: |
+        DAILY DOUBLE!!! 
+        This former Jedi, played by Christopher Lee, is decapitated by Anakin
+
+        1) Darth Maul
+        2) Darth Tyrannus
+        3) Count Dooku
+        4) Prince Nefarious
+
+      answer: Count Dooku
+
+  - name: |
+      Episode IV
+      A New Hope
+    questions:
+    - question: |
+        What was Luke going to pick up in Toshi Station?
+
+        1) Some babes
+        2) Friends
+        3) His T-16
+        4) Power Converters
+      answer: Power Converters
+    - question: |
+        In how many forms of communication is C3PO fluent?
+
+        1) Basic and Wookie
+        2) Over 6 million 
+        3) Dozens
+        4) Over 9 thousand
+      answer: Over 6 million
+    - question: |
+        Musical Clue!
+        Name this Genre of music, according to George Lucas
+
+        1) Space Bop
+        2) Swang
+        3) Cantina
+        4) Jizz 
+      answer: Jizz
+    - question: |
+        Name this character
+
+        1) Biggs Darklighter
+        2) Wedge Antilles
+        3) Garven Dreis
+        4) Jek Tono Porkins
+      answer: Porkins
+    - question: |
+        This planet is the Death Star's first target
+
+        1) Alderaan
+        2) Coruscant
+        3) Dantooine
+        4) Naboo
+      answer: Alderaan
+
+  - name: |
+      Episode V
+      The Empire Strikes Back
+    questions:
+    - question: |
+        The rebels use this strategy to destroy AT-ATs during the battle of hoth
+
+        1) Shoot them with blasters
+        2) Kamikaze
+        3) Run away
+        4) Trip them with harpoons
+      answer: Trip them with harpoons
+    - question: |
+        Darth Vader Force Chokes a lot of people for a lot of reasons. Which of the following is NOT a reason that Darth force chokes somebody?
+
+        1) Mocking his religion
+        2) Bringing the fleet out of lightspeed too close to a planet
+        3) Losing track of the Millenium Falcon
+        4) Allowing Bounty Hunters on his ship 
+      answer: Allowing Bounty Hunters on his ship
+    - question: |
+        Lando is one smooth operator! After using his lines on Leia, actor Billy Dee Williams went on to shill for this Alcohol company
+
+        1) Colt 45
+        2) Budweiser
+        3) King Cobra
+        4) Popov Vodka
+      answer: Colt 45
+    - question: |
+        This exchange occurs between ghost Obi Wan and Yoda
+
+        Obi - "That boy is our last hope."
+        Yoda - "No, there is another."
+        Who is the other hope?
+
+        1) Chewbacca
+        2) Leia 
+        3) Darth Vader (Anakin Skywalker)
+        4) C3PO
+      answer: Leia
+    - question: |
+        What was Darth Vader's Super Star Destroyer named?
+
+        1) Ganthrithor
+        2) Tormentor
+        3) Executor 
+        4) Subjugator
+      answer: Executor
+
+  - name: |
+      Episode VI
+      Return of the Jedi
+    questions:
+    - question: |
+        What is the name of the creature sitting on Jabba The Huts lap in Episode VI
+       
+        1) Ratata
+        2) Salacious B. Crumb  
+        3) Max Rebo
+        4) Wicket Wystri Warrick
+      answer: Salacious B. Crumb
+    - question: |
+        What monster eats the slave dancer Oola?
+
+        1) The Sarlaac
+        2) The Rancor 
+        3) A space worm
+        4) Jabba the Hutt
+      answer: The Rancor
+    - question: |
+        How prepared is the second Death Star when the rebels attack?
+
+        1) Fully-armed and operational 
+        2) Weapon systems not online
+        3) Completely finished
+        4) Alone, without a fleet to protect it
+      answer: Fully-armed and operational
+    - question: |
+        This amount of Bothans died while getting the Death Star plans
+
+        1) literally dozens of them
+        2) 2
+        3) a couple
+        4) many
+      answer: many
+    - question: |
+        Admiral Akbar of "IT'S A TRAP" fame is the most famous member of this race of squid-people
+
+        1) Nautilids
+        2) Cephalods
+        3) Mon Calamari
+        4) Squiggilies
+      answer: Mon Calamari
+  - name: General Trivia
+    questions:
+    - question: |
+        Which of the following is not an army featured in the films?
+
+        1) Clone Army
+        2) Drone Army 
+        3) Imperial Army
+        4) Republic Army
+      answer: Drone Army
+    - question: |
+        This home planet of the wookies is as famous for its spelling as its swamps
+
+        1) Bessspin
+        2) Kashyyyk
+        3) Huuuteen
+        4) El Salvadooore
+      answer: Kashyyyk
+    - question: |
+        This character was NOT featured in all six films
+
+        1) Anakin Skywalker/Darth Vader
+        2) C3PO
+        3) Palpaltine
+        4) Obi-Wan Kenobi
+      answer: Palpaltine
+    - question: |
+        Who shot first?
+
+        1) Han Solo
+        2) Greedo
+        3) Trick question, since Han shot, Greedo never shot at all
+        4) Chewbacca
+      answer: Trick question
+    - question: |
+        What was the name of the fan made editions of the original trilogies we screened?
+
+        1) Prestine edition
+        2) Unlucased edition
+        3) Despecialized edition
+        4) Pure Wars edition
+      answer: Despecialized edition
 
